@@ -1,4 +1,3 @@
-const { expect } = require('chai');
 const { By } = require('selenium-webdriver');
 
 const seleniumActions = require('../Base/DriverActions');
