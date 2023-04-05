@@ -1,0 +1,17 @@
+{
+  "name": "moneycorptests",
+  "version": "1.0.0",
+  "description": "Selenium using Javascript",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^111.0.0",
+     "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.8.2",
+    "test": "^3.3.0"
+    
+  },
+  "author": "Jane Xavier"
+}
