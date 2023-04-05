@@ -33,7 +33,7 @@ class SeleniumActions {
         var countOfResults =0;
         show = await this.driver.wait(until.elementsLocated(locator)).catch(error =>{throw(error)});
        var showTheResults =  await this.driver.findElements(locator)
-       ///counter will increment accroding to the result contain the en-us in href tag
+       ///counter will increment according to the result contain the en-us in href tag
        for(var element of showTheResults)
        {
         var hrefValue = await element.getAttribute("href");
